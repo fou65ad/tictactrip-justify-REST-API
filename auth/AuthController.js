@@ -13,8 +13,8 @@ var config = require('../config');
 var VerifyToken = require('./VerifyToken');
 var justification = require('./justification');
 
-var FastRateLimit = require("./fast-rate-limit.js").FastRateLimit;
-var decr = require("./fast-rate-limit.js");
+var FastRateLimit = require("./fast-rate-limit").FastRateLimit;
+var decr = require("./fast-rate-limit");
 
  
 var messageLimiter = new FastRateLimit({
