@@ -89,7 +89,7 @@ function justification(str,ln) {
                     while(k<line.length) {line2=line2+line[k];k++;}
         
         line2 = line2.replace(/ /g,"&nbsp;");
-       // line2 = line2.replace(/ /g, "x");
+      // line2 = line2.replace(/ /g, "x");
         // console.log(line2+"  LINE2");
               
         lines=lines+line2;
