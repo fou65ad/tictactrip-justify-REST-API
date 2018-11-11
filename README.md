@@ -1,4 +1,7 @@
 toutes les fonctionnalités ont été implémentées , si vous voulez tester localement ,faites cette installation, sinon tester directement sur https://tictac2.herokuapp.com/ :
+
+Note : si le code ne vous semble pas bien organisé , c'est parce que c'est ma pa premrière aventure en NodeJs ,je sais que je ne vais pas profiter du bonus ^^
+
 - Installation:
 
 ```
@@ -88,7 +91,7 @@ input ="Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougi
   
  ![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2010-33-33.png)
  
- et dans mon cas je suis autorisé de consommer 632 mots chaque 30s, le rate limit pour mon token jwt ne peut se déclencher que lorsque je fais une requête sur /api/justify, On limitReached un code 402 est envoyé avec un Payment Required
+ et dans mon cas je suis autorisé de consommer 632 mots chaque 30s, le rate limit pour mon token jwt ne peut se déclencher que lorsque je fais une requête sur /api/justify, OnlimitReached un code 402 est envoyé avec un Payment Required, et je dois attendre 30s pour consommer le service à nouveau
  
 ![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2010-41-38.png)
 
