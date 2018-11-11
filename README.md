@@ -8,6 +8,9 @@ Note : si le code ne vous semble pas bien organisé , c'est parce que c'est ma p
 git clone https://github.com/fou65ad/tictactrip-justify-REST-API.git
 ```
 ```
+cd tictactrip-justify-REST-API
+```
+```
 npm install
 ```
 - API test :
