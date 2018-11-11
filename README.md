@@ -83,11 +83,9 @@ input ="Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougi
  - Finalement pour la partie rate limit : un utilisateur, par son token(jwt) peut consommer N nombre de mots dans une durée T, ces paramètres sont définis dans le fichier "config.js"
  
   
- ![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2009-36-28.png)
+ ![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2010-33-33.png)
  
- et dans mon cas je suis autorisé de consommer 630 mots chaque 30s, le rate limit pour mon token jwt ne peut se déclencher que lorsque je fait une requête sur /api/justify
+ et dans mon cas je suis autorisé de consommer 632 mots chaque 30s, le rate limit pour mon token jwt ne peut se déclencher que lorsque je fais une requête sur /api/justify, On limitReached un code 402 est envoyé avec un Payment Required
  
-![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2009-36-28.png)
-
-On limitReached un code 402 est envoyé avec un Payment Required
+![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2010-41-38.png)
 
