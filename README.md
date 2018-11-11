@@ -92,3 +92,15 @@ input ="Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougi
  
 ![Settings Window](https://github.com/fou65ad/tictactrip-justify-REST-API/blob/master/screenshots/Screenshot%20from%202018-11-11%2010-41-38.png)
 
+je peux récupérer mes informations personnelles grace à mon token (sauf le mot de passe ^^) :
+
+requete : /api/me méthode POST , body en json : token
+```
+curl https://tictac2.herokuapp.com/api/me -d '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViZTc4NzdmZmFjYTI0MGRiMGFjYjdlYyIsImlhdCI6MTU0MTkwMTM4NywiZXhwIjoxNTQxOTg3Nzg3fQ.RPwo2lFtPvl9E1_VLZutc6zSKA-zcpiOHuL0Oj3jlZM"}' -H 'Content-Type: application/json' 
+```
+
+réponse :
+
+```
+{"_id":"5be7877ffaca240db0acb7ec","name":"tictactrip","email":"tictac@tictactrip.eu","__v":0}
+```
