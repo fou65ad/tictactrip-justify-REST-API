@@ -104,3 +104,5 @@ réponse :
 ```
 {"_id":"5be7877ffaca240db0acb7ec","name":"tictactrip","email":"tictac@tictactrip.eu","__v":0}
 ```
+
+Merci à adnanrahic pour l'app CRUD : https://github.com/adnanrahic/nodejs-restful-api
