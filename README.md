@@ -11,11 +11,11 @@ npm install
 ```
 node server.js 
 ```
-- s'isncrire sur localhost : /api/register méthode Post, body en json : name,email,password
+- s'inscrire sur localhost : /api/register méthode Post, body en json : name,email,password
 ```
 curl -d '{"name":"tictactrip","email":"tictac@tictactrip.eu","password":"pass"}' -H 'Content-Type: application/json' http://localhost:3000/api/register
 ```
-- s'isncrire en ligne , sur https://tictac2.herokuapp.com/ :
+- s'inscrire en ligne , sur https://tictac2.herokuapp.com/ :
    ```
   curl -d '{"name":"tictactrip","email":"tictac@tictactrip.eu","password":"pass"}' -H 'Content-Type: application/json' https://tictac2.herokuapp.com/api/register
   ```
