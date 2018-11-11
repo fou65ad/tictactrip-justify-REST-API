@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 - Installation:
+=======
+Installation:
+>>>>>>> f41f27d13aa2651b4f5c143c0c0877b644678c02
 
 ```
 git clone https://github.com/fou65ad/tictactrip-justify-REST-API.git
@@ -6,6 +10,7 @@ git clone https://github.com/fou65ad/tictactrip-justify-REST-API.git
 ```
 npm install
 ```
+<<<<<<< HEAD
 - API test :
 ```
 node server.js 
@@ -64,3 +69,6 @@ input ="Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougi
  ```
  elle va produire le résultat suivant :
  
+=======
+
+>>>>>>> f41f27d13aa2651b4f5c143c0c0877b644678c02

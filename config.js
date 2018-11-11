@@ -6,3 +6,7 @@ module.exports = {
   'duree' : 30     // durée de consommation de nbrMots en secondes ,exemple : pour une journée 24*60*60  
  
 };
+
+
+
+
