@@ -1,6 +1,5 @@
 toutes les fonctionnalités ont été implémentées , si vous voulez tester localement ,faites cette installation, sinon tester directement sur https://tictac2.herokuapp.com/ :
 
-Note : si le code ne vous semble pas bien organisé , c'est parce que c'est ma pa premrière aventure en NodeJs ,je sais que je ne vais pas profiter du bonus ^^
 
 - Installation:
 
@@ -110,5 +109,8 @@ réponse :
 ```
 {"_id":"5be7877ffaca240db0acb7ec","name":"tictactrip","email":"tictac@tictactrip.eu","__v":0}
 ```
+
+
+Note : si le code ne vous semble pas bien organisé , c'est parce que c'est ma pa premrière aventure en NodeJs ,je sais que je ne vais pas profiter du bonus ^^
 
 Merci à adnanrahic pour l'app CRUD : https://github.com/adnanrahic/nodejs-restful-api
